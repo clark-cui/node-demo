@@ -1,4 +1,6 @@
-
 // hello
-const { hello } = require('./src/hello.js')
+const {
+  hello
+} = require('./src/hello.js')
+debugger;
 hello();

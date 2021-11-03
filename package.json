@@ -5,6 +5,7 @@
   "author": "clark-cui <cuirongchuan@163.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "debug": "node inspect index.js"
   }
 }
