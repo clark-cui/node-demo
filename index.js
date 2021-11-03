@@ -1,6 +1,16 @@
-// hello
+const port = 3000;
+
+
+
+// // hello
+// const {
+//   hello
+// } = require('./src/cjs/hello.js');
+// debugger;
+// hello(port);
+
+// hello-express
 const {
-  hello
-} = require('./src/hello.js')
-debugger;
-hello();
+  expressStart
+} = require('./src/cjs/express.js');
+expressStart(port);

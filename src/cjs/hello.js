@@ -1,6 +1,6 @@
-function hello() {
+function hello(port) {
+  console.log(port, '1');
   const http = require('http');
-  const port = 3000;
   const server = http.createServer((req, res) => {
     res.end('Hello Node');
   })
