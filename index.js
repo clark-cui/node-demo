@@ -10,7 +10,13 @@ const port = 3000;
 // hello(port);
 
 // hello-express
+// const {
+//   expressStart
+// } = require('./src/cjs/express.js');
+// expressStart(port);
+
+//cli
 const {
-  expressStart
-} = require('./src/cjs/express.js');
-expressStart(port);
+  cli
+} = require('./src/cjs/cli.js');
+cli();

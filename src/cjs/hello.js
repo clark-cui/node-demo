@@ -1,5 +1,4 @@
 function hello(port) {
-  console.log(port, '1');
   const http = require('http');
   const server = http.createServer((req, res) => {
     res.end('Hello Node');
@@ -12,3 +11,4 @@ function hello(port) {
 module.exports = {
   hello
 }
+
