@@ -9,6 +9,4 @@ function expressStart(port) {
     console.log(`Express web app on http://localhost:${port}`);
   })
 }
-module.exports = {
-  expressStart
-}
+module.exports = expressStart;

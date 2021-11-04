@@ -8,7 +8,4 @@ function hello(port) {
   })
 }
 
-module.exports = {
-  hello
-}
-
+module.exports = hello;
