@@ -1,9 +1,9 @@
 const http = require('http');
 const fs = require('fs');
-module.exports = function cb() {
+module.exports = function cb(port) {
   http.createServer((req, res) => {
     getTitles(res);
-  }).listen(3000, '127.0.0.1');
+  }).listen(port);
 
 }
 
