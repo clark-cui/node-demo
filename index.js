@@ -18,3 +18,7 @@ const port = 3000;
 // //callback
 // const cb = require('./src/cjs/callback/index.js')
 // cb(port);
+
+// //progress
+const progressBar = require('./src/cjs/progress.js');
+progressBar();
