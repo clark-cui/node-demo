@@ -22,3 +22,7 @@ const port = 3000;
 // //progress
 // const progressBar = require('./src/cjs/progress.js');
 // progressBar();
+
+// // chanel 
+// const chanel = require('./src/cjs/chanel.js');
+// chanel();
