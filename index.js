@@ -15,3 +15,6 @@ const port = 3000;
 // const cli = require('./src/cjs/cli.js');
 // cli();
 
+// //callback
+const cb = require('./src/cjs/callback/index.js')
+cb();
