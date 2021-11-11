@@ -20,5 +20,5 @@ const port = 3000;
 // cb(port);
 
 // //progress
-const progressBar = require('./src/cjs/progress.js');
-progressBar();
+// const progressBar = require('./src/cjs/progress.js');
+// progressBar();

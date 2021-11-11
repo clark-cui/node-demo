@@ -9,7 +9,7 @@ module.exports = function cb(port) {
 
 function getTitles(res) {
   fs.readFile('./src/cjs/callback/titles.json', (err, data) => {
-    if (err) return;
+    if (err) throw err;
     const title = JSON.parse(data.toString()).title
     getTemplate(JSON.parse(title), res);
   })
@@ -17,7 +17,7 @@ function getTitles(res) {
 
 function getTemplate(titles, res) {
   fs.readFile('./src/cjs/callback/template.html', (err, data) => {
-    if (err) return;
+    if (err) throw err;
     formatHtml(titles, data.toString(), res);
   })
 }
